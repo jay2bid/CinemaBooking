@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaBookingService", "CinemaBookingService\CinemaBookingService.csproj", "{0ED2A566-72CC-4585-A1CE-F83557E6153D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaBookingService.Tests", "CinemaBookingService.Tests\CinemaBookingService.Tests.csproj", "{766889F5-D89F-4C23-80C9-2CD8FF5CFA20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0ED2A566-72CC-4585-A1CE-F83557E6153D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ED2A566-72CC-4585-A1CE-F83557E6153D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ED2A566-72CC-4585-A1CE-F83557E6153D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ED2A566-72CC-4585-A1CE-F83557E6153D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{766889F5-D89F-4C23-80C9-2CD8FF5CFA20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{766889F5-D89F-4C23-80C9-2CD8FF5CFA20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{766889F5-D89F-4C23-80C9-2CD8FF5CFA20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{766889F5-D89F-4C23-80C9-2CD8FF5CFA20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
