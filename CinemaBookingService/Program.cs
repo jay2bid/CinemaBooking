@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+using CinemaBookingService;
+Console.WriteLine("Welcome to the cinema booking system");
+
+// Seat
+// Cinema
+// Booking Manager 
