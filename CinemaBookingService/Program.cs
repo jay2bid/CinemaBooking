@@ -12,7 +12,9 @@ while (isSeatsAvailable)
     isSeatsAvailable = booking.BookTickets(tickets);
     if (isSeatsAvailable == false)
     {
-        Console.WriteLine("Cinema is full. No Seats Available.");
+        Console.WriteLine("Apologies, Cinnamon Cinema is fully booked.There are no more seats available.");
         break;
     }
 }
+Console.WriteLine("Press Enter key to exit the demo");
+Console.ReadLine();
