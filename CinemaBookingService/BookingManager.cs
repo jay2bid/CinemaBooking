@@ -28,7 +28,7 @@ namespace CinemaBookingService
                     foreach (Seat x in availableSeats)
                     {
                         x._isAvaiable = false;
-                        Console.WriteLine($"Allocated SeatNumber:{x._row}" + $"{x._seatNumber}");
+                        Console.WriteLine($"Seat Number:{x._row}" + $"{x._seatNumber} has been allocated");
                         seatsAllocated++;
                         if (seatsAllocated == noOfTickets)
                             return true;
